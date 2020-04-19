@@ -1,6 +1,5 @@
 CREATE TABLE victor (
-    id integer,
+    id integer primary key ,
     nome text not null,
-    email text null,
-    primary key (id)
+    email text null
 )
